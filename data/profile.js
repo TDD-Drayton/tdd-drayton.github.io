@@ -75,13 +75,7 @@ const profileData = {
       title: `Software QA DevOps`,
       date: "Current",
       details: [
-        `Java`,
-        `SQL`,
-        `Agile`,
-        `Maintained the physical functionality of devices: Laptops, Desktops, Thinclients, Printers, and mobile
-devices(scanners, tablets, etc.)`,
-        `Managed procurement management of multiple accounts of assets valued over 500,000USD.`,
-        `Collaborated with vendors for the implementation of assets and technology.`
+    
       ]
     },
     {
