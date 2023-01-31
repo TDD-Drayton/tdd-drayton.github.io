@@ -4,9 +4,9 @@ const profileData = {
   sub_title: "DevOps Network Engineer",
   logoURL: "assets/images/dp.jpg",
   about: {
-    intro: `I am an innovative and passionate developer with a primary interest in <strong>JavaScript</strong>
-     and it's applications. Experienced in designing and implementing sophisticated UI/UX with
-      Progressive Web Application standards and application life-cycle managements.`,
+    intro: `I am an innovative and passionate developer with a primary interest in <strong>DevOps</strong>.
+    Experienced in Agile implementation of sophisticated automation of Software QA tests with years of experience
+    in Network Engineering.`,
     contact: {
       email: "************@gmail.com",
       phone: "***.***.****",
@@ -70,6 +70,20 @@ const profileData = {
     }
   ],
   experiences: [
+    {
+      organization: "Freelance",
+      title: `Software QA DevOps`,
+      date: "Current",
+      details: [
+        `Java`,
+        `SQL`,
+        `Agile`,
+        `Maintained the physical functionality of devices: Laptops, Desktops, Thinclients, Printers, and mobile
+devices(scanners, tablets, etc.)`,
+        `Managed procurement management of multiple accounts of assets valued over 500,000USD.`,
+        `Collaborated with vendors for the implementation of assets and technology.`
+      ]
+    },
     {
       organization: "Amazon",
       title: `IT Engineer | IT Support Associate II`,

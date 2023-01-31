@@ -1,396 +1,320 @@
-body,
-html {
-  margin: 0 auto;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Source Sans Pro",
-    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 100%;
-  color: #222;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-/* Links */
-a {
-  text-decoration: none !important;
-  color: #3173bb !important;
-}
-
-strong {
-  color: #333;
-}
-
-.container {
-  padding: 10px 15px;
-  margin: 0 auto;
-  /* width: 55rem; */
-  max-width: 55rem;
-  background-color: #fff;
-}
-
-.link-title {
-  letter-spacing: 1px;
-  color: #444;
-}
-
-.header {
-  text-align: center;
-  margin-bottom: 1.5rem;
-}
-
-.profile-logo {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-}
-
-.header-title {
-  font-size: 2.4rem;
-  font-weight: 200;
-  letter-spacing: 0.4rem;
-  text-transform: uppercase;
-}
-
-.header-sub-title {
-  font-weight: 400;
-  color: #757575;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-.contact-section {
-  padding-bottom: 0.5rem;
-}
-
-.contact-item {
-  display: flex;
-  align-items: center;
-  color: #3173bb;
-  padding: 0.4rem 0;
-}
-
-.contact-logo {
-  color: #3173bb;
-}
-
-.contact-info {
-  padding-left: 1rem;
-}
-
-.info-section {
-  padding: 1rem 0 0 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.info-left {
-  flex: 1;
-  border-right: 2px solid #f5f5f5;
-  padding-right: 1rem;
-}
-
-.info-right {
-  flex: 3;
-  padding-left: 1rem;
-}
-
-.info-row {
-  width: 100%;
-}
-
-.cat-header {
-  padding: 0.5rem 0;
-  font-size: 1.1rem;
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid #f0f0f0;
-}
-
-.cat-indicator {
-  color: #3173bb;
-}
-
-.cat-title {
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  vertical-align: text-bottom;
-  padding-left: 1rem;
-  color: #666;
-}
-
-.cat-def-body,
-.cat-skill-body {
-  padding: 0.2rem 0px 0.7rem 1.7rem;
-}
-
-/* Lists */
-.cat-list-body {
-  padding-bottom: 1rem;
-}
-.cat-list-body ul {
-  padding-left: 18px;
-  margin: 0;
-  list-style-type: circle;
-}
-
-.cat-list-body li {
-  padding: 0.4rem 0;
-  padding-left: 0.6rem;
-}
-
-/* Education */
-.edu-header,
-.project-header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.edu-alma,
-.project-title,
-.skill-title {
-  font-weight: 600;
-  letter-spacing: 1px;
-  padding-right: 60px;
-}
-
-.edu-duration,
-.project-duration {
-  color: #666;
-  font-style: italic;
-}
-
-.edu-class-data {
-  /* clear: right; */
-  margin-top: 5px;
-}
-
-.edu-std {
-  letter-spacing: 0.1rem;
-  color: #666;
-}
-
-.edu-score {
-  margin-left: 20px;
-  padding: 2px 8px;
-  background-color: #3173bb;
-  color: #fff;
-  border-radius: 20px;
-}
-
-/* Project */
-.project-title {
-  padding-right: 5px;
-}
-
-.project-desc {
-  /* margin-top: 8px; */
-  color: #444;
-  padding: 4px 0 4px 16px;
-  border-left: 2px solid beige;
-}
-
-/* Skills */
-.cat-skill-item {
-  padding: 0.2rem 0 !important;
-  padding-left: 0.6rem !important;
-}
-
-.cat-skill-type {
-  /* width: 100%; */
-  /* min-width: 13.5rem; */
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 1px;
-  padding: 5px 0;
-}
-
-.force-inline {
-  display: inline-block !important;
-}
-
-.cat-skill-body {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 0 0 5px 40px;
-}
-
-.cat-skill-body-gen {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.skill {
-  margin: 10px 0;
-  padding: 0 10px;
-}
-
-.skill-gen {
-  display: inline;
-  padding: 5px 10px;
-  margin: 3px 6px;
-  margin-left: 0;
-  background-color: #3173bb;
-  color: #fff;
-  border-radius: 3rem;
-
-  /* font-weight: 600; */
-  font-size: 0.9rem;
-}
-
-.skill-progress-track {
-  height: 10px;
-  min-width: 150px;
-  background-color: #eee;
-  margin-top: 6px;
-  border-radius: 6px;
-}
-
-.skill-progress {
-  height: 100%;
-  background-color: #3173bb;
-  border-radius: 6px;
-}
-
-.pad-bottom-extra {
-  padding-bottom: 20px;
-}
-
-.ach-item {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.exp-org {
-  font-weight: 600;
-  letter-spacing: 1px;
-  color: #444;
-}
-
-.exp-title {
-  color: #666;
-}
-
-.ach-title {
-  width: 75%;
-  color: #444;
-}
-
-.ach-duration {
-  color: #666;
-  font-style: italic;
-  width: 15%;
-  text-align: right;
-}
-
-.expDet {
-  list-style-type: disc !important;
-  color: #444;
-  padding: 4px 0 4px 16px;
-  /* font-style: italic; */
-}
-
-.expDet > li {
-  padding: 0.3rem 0 !important;
-  padding-left: 0.3rem !important;
-}
-
-/* Media wuery for mobile view */
-@media screen and (max-width: 500px) {
-  .profile-logo {
-    margin: 0 auto;
-  }
-
-  .header-title {
-    /* flex-wrap: wrap; */
-    /* justify-content: center; */
-    text-align: center;
-  }
-
-  .header-title .profile-contact {
-    text-align: left;
-  }
-
-  .header-sub-title {
-    /* justify-content: center; */
-    text-align: center;
-  }
-
-  .link-title {
-    padding-bottom: 3px;
-    font-weight: 500;
-  }
-
-  .cat-title {
-    letter-spacing: 2px;
-    font-weight: 600;
-  }
-
-  .info-section .info-left {
-    border: none;
-  }
-
-  .info-section .info-right {
-    padding: 0;
-  }
-
-  .ach-item {
-    flex-direction: column;
-  }
-
-  .ach-item .ach-title {
-    width: auto;
-  }
-
-  .ach-item .ach-duration {
-    width: auto;
-    text-align: left;
-  }
-
-  .edu-header {
-    flex-direction: column;
-  }
-
-  .edu-score {
-    margin-left: 0;
-  }
-
-  .contact-item {
-    /* width: 100%; */
-    display: block;
-    cursor: pointer;
-  }
-
-  .contact-icon {
-    min-width: 1.8rem;
-    text-align: center;
-  }
-
-  .cat-def-body,
-  .cat-skill-body {
-    padding: 0.5rem 0 0.5rem 1.4rem;
-  }
-
-  .cat-list-body {
-    padding: 2px 0 10px 0px;
-  }
-
-  .cat-skill-body-gen {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    /* justify-content: space-between; */
-  }
-
-  .project-link a {
-    word-wrap: break-word;
-  }
-
-  .project-desc {
-    color: #444;
-    padding: 4px 0;
-  }
-}
+/* Define all the functions */
+const setTitle = data => {
+  // Set page title
+  document.title = `${data.title} | ${data.name}`;
+  document.querySelector('#profileName').innerHTML = data.name;
+  document.querySelector('#profileSubTitle').innerHTML = data.sub_title;
+  // document.querySelector('#aboutIntro').innerHTML = data.about.intro;
+  document.querySelector('#contactEmail').innerHTML = data.about.contact.email;
+  document
+    .querySelector('#contactEmail')
+    .setAttribute('href', `mailto:${data.about.contact.email}`);
+  document.querySelector('#contactPhone').innerHTML = data.about.contact.phone;
+  /* document.querySelector('#contactAddress').innerHTML =
+    data.about.contact.address; */
+};
+
+const setLinks = links => {
+  const linksList = document.querySelector('#linksList');
+  links.forEach(link => {
+    const li = document.createElement('li');
+    const title = document.createElement('div');
+    title.className = 'link-title';
+    title.innerHTML = link.title;
+    li.appendChild(title);
+
+    const linkSrc = document.createElement('div');
+    linkSrc.className = 'link-src';
+    const a = document.createElement('a');
+    a.href = link.src;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    a.innerHTML = link.src;
+    linkSrc.appendChild(a);
+    li.appendChild(linkSrc);
+
+    linksList.appendChild(li);
+  });
+};
+
+const setEducation = education => {
+  const ul = document.querySelector('#educationList');
+  education.forEach(edu => {
+    const li = document.createElement('li');
+
+    const eduHeader = document.createElement('div');
+    eduHeader.className = 'edu-header';
+
+    const eduAlma = document.createElement('span');
+    eduAlma.className = 'edu-alma';
+    eduAlma.innerHTML = edu.alma;
+    eduHeader.appendChild(eduAlma);
+
+    const eduDuration = document.createElement('span');
+    eduDuration.className = 'edu-duration';
+    eduDuration.innerHTML = edu.duration;
+    eduHeader.appendChild(eduDuration);
+
+    li.appendChild(eduHeader);
+
+    const eduClassData = document.createElement('div');
+    eduClassData.className = 'edu-class-data';
+
+    const eduStd = document.createElement('span');
+    eduStd.className = 'edu-std';
+    eduStd.innerHTML = edu.std;
+    eduClassData.appendChild(eduStd);
+
+    const eduScore = document.createElement('span');
+    eduScore.className = 'edu-score';
+    eduScore.innerHTML = edu.score;
+    eduClassData.appendChild(eduScore);
+
+    li.appendChild(eduClassData);
+
+    ul.appendChild(li);
+  });
+};
+
+const setProjects = projects => {
+  const ul = document.querySelector('#projectList');
+  projects.forEach(project => {
+    const li = document.createElement('li');
+
+    const projectHeader = document.createElement('div');
+    projectHeader.className = 'project-header';
+
+    const projectTitle = document.createElement('span');
+    projectTitle.className = 'project-title';
+    projectTitle.innerHTML = project.title;
+    projectHeader.appendChild(projectTitle);
+
+    const projectDuration = document.createElement('span');
+    projectDuration.className = 'project-duration';
+    projectDuration.innerHTML = project.duration;
+    projectHeader.appendChild(projectDuration);
+
+    li.appendChild(projectHeader);
+
+    if (!!project.link) {
+      const projectLink = document.createElement('span');
+      projectLink.className = 'project-link';
+
+      const a = document.createElement('a');
+      a.href = project.link;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      a.innerHTML = `${project.link}`;
+
+      projectLink.appendChild(a);
+      li.appendChild(projectLink);
+    }
+
+    const projectDesc = document.createElement('div');
+    projectDesc.className = 'project-desc';
+    projectDesc.innerHTML = project.desc;
+
+    li.appendChild(projectDesc);
+
+    ul.appendChild(li);
+  });
+};
+
+const setSkills = skills => {
+  const skillList = document.querySelector('#skillList');
+  skills.forEach(skill => {
+    let type_klass = 'cat-skill-type';
+    let body_klass = 'cat-skill-body';
+
+    if (!skill.graph) {
+      type_klass += ' force-inline';
+      body_klass += '-gen';
+    }
+
+    const catSkillItem = document.createElement('li');
+    catSkillItem.className = 'cat-skill-item';
+
+    const catSkillType = document.createElement('div');
+    catSkillType.className = type_klass;
+    catSkillType.innerHTML = skill.category;
+    catSkillItem.appendChild(catSkillType);
+
+    const catSkillBody = document.createElement('div');
+    catSkillBody.className = body_klass;
+
+    if (skill.graph) {
+      skill.topics.forEach(topic => {
+        const skillGen = document.createElement('div');
+        skillGen.className = 'skill-gen';
+
+        const skillTitle = document.createElement('div');
+        skillTitle.className = 'skill-title';
+        skillTitle.innerHTML = topic;
+        skillGen.appendChild(skillTitle);
+
+        const skillProgressTrack = document.createElement('div');
+        skillProgressTrack.className = 'skill-progress-track';
+        const skillProgress = document.createElement('div');
+        skillProgress.className = 'skill-progress';
+        skillProgress.style = `width: ${topic.perc}`;
+        skillProgressTrack.appendChild(skillProgress);
+
+        skillGen.appendChild(skillProgressTrack);
+
+        catSkillBody.appendChild(skillGen);
+      });
+    } else {
+      skill.topics.forEach(topic => {
+        const skillGen = document.createElement('div');
+        skillGen.className = 'skill-gen';
+        skillGen.innerHTML = topic;
+        catSkillBody.appendChild(skillGen);
+      });
+    }
+
+    catSkillItem.appendChild(catSkillBody);
+
+    skillList.appendChild(catSkillItem);
+  });
+};
+
+const setExperience = experiences => {
+  const expList = document.querySelector('#experienceList');
+  experiences.forEach(exper => {
+    const expListItem = document.createElement('li');
+
+    const expItem = document.createElement('div');
+    expItem.className = 'exp-item';
+
+    const expOrg = document.createElement('div');
+    expOrg.className = 'exp-org';
+    expOrg.innerHTML = exper.organization;
+    expItem.appendChild(expOrg);
+
+    const expSub = document.createElement('div');
+
+    const expTitle = document.createElement('span');
+    expTitle.className = 'exp-title';
+    expTitle.innerHTML = `${exper.title}, (${exper.date})`;
+    expSub.appendChild(expTitle);
+
+    // const expDura = document.createElement('span');
+    // expDura.className = 'ach-duration';
+    // expDura.innerHTML = exper.date;
+    // expSub.appendChild(expDura);
+
+    expItem.appendChild(expSub);
+
+    expListItem.appendChild(expItem);
+
+    if (exper.details) {
+      const expDetails = document.createElement('ul');
+      expDetails.className = 'expDet';
+
+      exper.details.forEach(dText => {
+        const detItem = document.createElement('li');
+        detItem.style.listStyle = 'square';
+        detItem.innerHTML = dText;
+        expDetails.appendChild(detItem);
+      });
+
+      expListItem.appendChild(expDetails);
+    }
+
+    expList.appendChild(expListItem);
+  });
+};
+
+const setEvents = events => {
+  const footer = document.querySelector('.footer');
+  events.forEach(event => {
+    const eventTitle = setCatagoryHeader(event.title);
+    footer.appendChild(eventTitle);
+
+    const eventBody = document.createElement('div');
+    eventBody.className = 'cat-list-body';
+
+    const ul = document.createElement('ul');
+
+    event.body.forEach(evt => {
+      const li = document.createElement('li');
+
+      const achItem = document.createElement('div');
+      achItem.className = 'ach-item';
+
+      const achTitle = document.createElement('div');
+      achTitle.className = 'ach-title';
+      achTitle.innerHTML = evt.desc;
+      achItem.appendChild(achTitle);
+
+      const achDuration = document.createElement('div');
+      achDuration.className = 'ach-duration';
+      achDuration.innerHTML = evt.date;
+      achItem.appendChild(achDuration);
+
+      li.appendChild(achItem);
+      ul.appendChild(li);
+    });
+
+    eventBody.appendChild(ul);
+    footer.appendChild(eventBody);
+  });
+};
+
+const setCertification = certifications => {
+  const certList = document.getElementById('certList');
+
+  certifications.forEach(evt => {
+    const li = document.createElement('li');
+
+    const achItem = document.createElement('div');
+    achItem.className = 'ach-item';
+
+    const achTitle = document.createElement('div');
+    achTitle.className = 'ach-title';
+    achTitle.innerHTML = evt.desc;
+    achItem.appendChild(achTitle);
+
+    const achDuration = document.createElement('div');
+    achDuration.className = 'ach-duration';
+    achDuration.innerHTML = evt.date;
+    achItem.appendChild(achDuration);
+
+    li.appendChild(achItem);
+    certList.appendChild(li);
+  });
+};
+
+const setCatagoryHeader = title => {
+  const catHeader = document.createElement('div');
+  catHeader.className = 'cat-header';
+
+  const catIndicator = document.createElement('span');
+  catIndicator.className = 'cat-indicator';
+
+  const i = document.createElement('i');
+  i.className = 'fa fa-chevron-right';
+  i['area-hidden'] = 'true';
+  catIndicator.appendChild(i);
+  catHeader.appendChild(catIndicator);
+
+  const catTitle = document.createElement('span');
+  catTitle.className = 'cat-title';
+  catTitle.innerHTML = title;
+  catHeader.appendChild(catTitle);
+
+  return catHeader;
+};
+
+//  Entry Function, IIFE
+(() => {
+  // Call functions to load profile
+  setTitle(profileData);
+  setLinks(profileData.links);
+  setExperience(profileData.experiences);
+  setProjects(profileData.projects);
+  setSkills(profileData.skills);
+  setEducation(profileData.education);
+  setCertification(profileData.certifications);
+  setEvents(profileData.events);
+})();
