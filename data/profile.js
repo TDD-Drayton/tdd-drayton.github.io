@@ -41,7 +41,7 @@ const profileData = {
   skills: [
     {
       category: "Programming Languages",
-      topics: ["Python", "C"]
+      topics: ["Python", "C", "Java"]
     },
     {
       category: "Automating device and network functions",
@@ -75,7 +75,7 @@ const profileData = {
       title: `Software QA DevOps`,
       date: "Current",
       details: [
-    
+
       ]
     },
     {
