@@ -40,7 +40,7 @@ const profileData = {
     skills: [
       {
         category: "Programming Languages",
-        topics: ["Python", "C", "Java"]
+        topics: ["Python", "C", "JavaScript"]
       },
       {
         category: "Automating device and network functions",
