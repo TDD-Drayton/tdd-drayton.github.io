@@ -4,11 +4,11 @@ const profileData = {
     sub_title: "DevOps - CyberSecurity - Network - Engineer",
     logoURL: "assets/images/dp.jpg",
     about: {
-      intro: `I am an innovative and passionate engineer with a primary interest in <strong>DevOps</strong> and <strong>Cybersecurity</strong>.
+      intro: `I am an innovative network engineer with primary interests in <strong>DevOps</strong> and <strong>Cybersecurity</strong>.
       Experienced in Agile implementation of sophisticated automation of networks and software QA testing`,
       contact: {
-        email: "contact me for my email",
-        phone: "contact me for my phone",
+        email: "-",
+        phone: "-",
         address: "I live in the USA"
       }
     },
@@ -89,7 +89,7 @@ const profileData = {
           `Researched and collaborated with engineering teams on the implementation of Cisco and Juniper Network devices
   configuration, monitoring, and maintenance of routers and switches`,
           `Managed DHCP, DNS, IPv4/6 addressing, TCP/IP, MPLS/VPLS, BGP, EIGRP, SNMP, and troubleshooting
-  network connections of laptops and desktops using utilities such as ping, traceroute, mtr, and telnet.`,
+  network connections of laptops and desktops using utilities such as ping, traceroute, mtr, SSH, and telnet.`,
           `Reviewed metrics of customer support, uptime, and networking data. Presented information through the
   use of Python-Data Analysis and Data Presentation. Python-Jupyter Notebook and Tableau.`,
           `Maintained the physical functionality of devices: Laptops, Desktops, Thinclients, Printers, and mobile
