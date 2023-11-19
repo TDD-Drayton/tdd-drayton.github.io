@@ -74,28 +74,23 @@ const profileData = {
         title: `Software Test Engineer`,
         date: "January 2023 - November 2023",
         details: [
-          'Presentation of systems testing front-end, back-end, and database updates.',
-          'Confirmed successful collaboration and implementation of vendor systems',
-          'Performing manual, integration, functional, and regression testing',
-          'Test Automation Frameworks: Java, JavaScript, Selenium/WebDriver, Jenkins, Postman'
-  
+          'Systems Testing: Conducted comprehensive testing of front-end, back-end, and database updates to ensure seamless system functionality.',
+          'Collaboration and Implementation: Successfully collaborated with vendors to implement systems, ensuring efficient and error-free integration.',
+          'Testing Proficiency: Proficient in manual testing, integration testing, functional testing, and regression testing to maintain and enhance product quality.',
+          'Test Automation Frameworks: Demonstrated expertise in utilizing Test Automation Frameworks, including Java, JavaScript, Selenium/WebDriver, Jenkins, and Postman.'
         ]
       },
       {
         organization: "Amazon",
-        title: `IT Engineer | IT Support Associate II`,
+        title: `IT Engineer | System Admin`,
         date: "Nov 2017 - Sep 2022",
         details: [
-          `Researched and collaborated with engineering teams on the implementation of Cisco and Juniper Network devices
-  configuration, monitoring, and maintenance of routers and switches`,
-          `Managed DHCP, DNS, IPv4/6 addressing, TCP/IP, MPLS/VPLS, BGP, EIGRP, SNMP, and troubleshooting
-  network connections of laptops and desktops using utilities such as ping, traceroute, mtr, SSH, and telnet.`,
-          `Reviewed metrics of customer support, uptime, and networking data. Presented information through the
-  use of Python-Data Analysis and Data Presentation. Python-Jupyter Notebook and Tableau.`,
-          `Maintained the physical functionality of devices: Laptops, Desktops, Thinclients, Printers, and mobile
-  devices(scanners, tablets, etc.)`,
-          `Managed procurement management of multiple accounts of assets valued over 500,000USD.`,
-          `Collaborated with vendors for the implementation of assets and technology.`
+          'Network Infrastructure Implementation: Conducted in-depth research and collaborated with engineering teams to implement Cisco and Juniper Network devices, overseeing configuration, monitoring, and maintenance of routers and switches.',
+          'Network Administration Expertise: Proficiently managed DHCP, DNS, IPv4/6 addressing, TCP/IP, MPLS/VPLS, BGP, EIGRP, SNMP, and effectively troubleshooted network connections for laptops and desktops using utilities such as ping, traceroute, mtr, SSH, and telnet.',
+          'Data Analysis and Presentation: Utilized Python for data analysis and presentation, leveraging tools like Jupyter Notebook and Tableau to review metrics related to customer support, uptime, and networking data.',
+          'Device Maintenance: Ensured the physical functionality of a diverse range of devices, including laptops, desktops, thin clients, printers, and mobile devices (scanners, tablets, etc.).',
+          'Procurement Management: Successfully managed procurement for multiple accounts, overseeing assets valued at over $500,000.',
+          'Vendor Collaboration: Collaborated effectively with vendors for the seamless implementation of assets and technology, ensuring optimal performance and reliability.'
         ]
       },
       {
@@ -103,12 +98,10 @@ const profileData = {
         title: `IT Tourism Specialist | Intern`,
         date: "August 2014 - January 2015",
         details: [
-          `Installation and Maintenance of the setup of wireless and wired receiver and transmitter devices in venue
-  spaces for live speaking and musical presentation.`,
-          `Partnered with curation executives on artistic installation and maintenance.`,
-          `Promotion as an Ambassador for installations: ‘Big Bang Data’ and ‘Art Flux Film Fest’.`,
-          `Presented information through the use of Python-Data Analysis and Data Presentation. SQL,
-  Python-Jupyter Notebook`
+          'Audiovisual Systems Installation and Maintenance: Proficiently installed and maintained wireless and wired receiver and transmitter devices in venue spaces, ensuring optimal performance for live speaking and musical presentations.',
+          'Collaboration with Curation Executives: Partnered closely with curation executives to contribute to the artistic installation and maintenance of audiovisual setups, enhancing the overall experience for events.',
+          'Ambassadorial Role for Installations: Recognized and promoted as an Ambassador for prominent installations, including Big Bang Data and Art Flux Film Fest showcasing dedication and expertise in the field.',
+          'Data Analysis and Presentation: Employed Python for data analysis and presentation, including the use of SQL and Python-Jupyter Notebook to effectively convey information related to installations.'
         ]
       },
       {
@@ -117,9 +110,9 @@ const profileData = {
         desc: `IELTS Test Preparation`,
         date: "Since 2015",
         details: [
-          `Evaluation of exam readiness of students preparing for the IELTS or TOEFL language exams.`,
-          `Development of IELTS and TOEFL study materials for students planning to take the exams.`,
-          `One on One lessons with students.`
+          'Assessment of Exam Preparedness: Conducted thorough evaluations to assess the exam readiness of students preparing for the IELTS or TOEFL language exams.',
+          'Curriculum Development: Developed comprehensive study materials tailored specifically for students gearing up to take the IELTS and TOEFL exams, ensuring a well-rounded and effective preparation.',
+          'Personalized Instruction: Provided individualized one-on-one lessons to students, fostering an environment conducive to targeted learning and addressing specific areas of improvement.'
         ]
       }
   
@@ -141,8 +134,8 @@ const profileData = {
         date: "March 2022"
       },
       {
-        desc:'I am preparing to take the following exam(s) before February 2024: Security+, CySA+, and Associate Cloud Engineer. I am always learning something new.',
-        date:"January 2024"
+        desc:'Upcoming exam(s): Security+, CySA+, and CISSP. I am always learning something new.',
+        date:"2024"
       }
     ],
     events: []
