@@ -121,17 +121,17 @@ const profileData = {
       {
         desc: `<strong>JNCIA-DevOps</strong> by <strong>Juniper Networks</strong>.
         (<a target='_blank' rel='noreferrer' href='https://www.credly.com/users/toi-drayton/badges'>Credly</a>)`,
-        date: ""
+        date: " "
       },
       {
         desc: `<strong>Applied Data Science with Python - Level 2</strong> by <strong>IBM</strong>.
         (<a target='_blank' rel='noreferrer' href='https://www.credly.com/users/toi-drayton/badges'>Credly</a>)`,
-        date: ""
+        date: " "
       },
       {
         desc: `<strong>Docker Essentials: A Developer Introduction</strong> by <strong>IBM</strong>.
         (<a target='_blank' rel='noreferrer' href='https://www.credly.com/users/toi-drayton/badges'>Credly</a>)`,
-        date: ""
+        date: " "
       },
       {
         desc:'Upcoming exam(s): Security+, CySA+, and CISSP. I am always learning something new.',
