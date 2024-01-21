@@ -62,10 +62,10 @@ const profileData = {
         desc: `Challenging mathematical/computer programming problems.`
       },
       {
-        title: "Intensive Reader",
+        title: "Understanding Maths",
         duration: "Current",
-        link: "https://github.com/TDD-Drayton/intensiveReader_v1.0",
-        desc: `Active engagement and interaction with texts for focused reading.`
+        link: "https://github.com/TDD-Drayton/Working-Math-Quiz-1",
+        desc: `Simple example and use cases using C and Python covering a variety of topics.`
       }
     ],
     experiences: [
