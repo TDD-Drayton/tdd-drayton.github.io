@@ -20,19 +20,19 @@ const profileData = {
     education: [
       {
         alma: "Harvard Extension School",
-        duration: "Audit",
+        duration: "Enrolled",
         std: "Bachelor of Liberal Arts",
         score: "3.0"
       },
       {
         alma: "Eastern Florida State College",
-        duration: "3 Semesters: 2016-2017",
+        duration: "3 Semesters",
         std: "Associate of Science",
         score: "3.0"
       },
       {
         alma: "Duncan U. Fletcher High School",
-        duration: "Graduated: 2011",
+        duration: "Graduated",
         std: "General Education",
         score: "3.7"
       }
@@ -134,7 +134,7 @@ const profileData = {
         date: " "
       },
       {
-        desc:'Upcoming exam(s): Security+, CySA+, and CISSP. I am always learning something new.',
+        desc:'Upcoming exam(s): CySA+, and CISSP. I am always learning something new.',
         date:"2024"
       }
     ],
