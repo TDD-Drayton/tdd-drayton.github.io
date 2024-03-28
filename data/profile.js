@@ -93,29 +93,7 @@ const profileData = {
           'Vendor Collaboration: Collaborated effectively with vendors for the seamless implementation of assets and technology, ensuring optimal performance and reliability.'
         ]
       },
-      {
-        organization: "Centre de Cultura Contemporània de Barcelona",
-        title: `IT Tourism Specialist | Intern`,
-        date: "August 2014 - January 2015",
-        details: [
-          'Audiovisual Systems Installation and Maintenance: Proficiently installed and maintained wireless and wired receiver and transmitter devices in venue spaces, ensuring optimal performance for live speaking and musical presentations.',
-          'Collaboration with Curation Executives: Partnered closely with curation executives to contribute to the artistic installation and maintenance of audiovisual setups, enhancing the overall experience for events.',
-          'Ambassadorial Role for Installations: Recognized and promoted as an Ambassador for prominent installations, including Big Bang Data and Art Flux Film Fest showcasing dedication and expertise in the field.',
-          'Data Analysis and Presentation: Employed Python for data analysis and presentation, including the use of SQL and Python-Jupyter Notebook to effectively convey information related to installations.'
-        ]
-      },
-      {
-        organization: "Italki",
-        title: `Community English Tutor | Freelance`,
-        desc: `IELTS Test Preparation`,
-        date: "Since 2015",
-        details: [
-          'Assessment of Exam Preparedness: Conducted thorough evaluations to assess the exam readiness of students preparing for the IELTS or TOEFL language exams.',
-          'Curriculum Development: Developed comprehensive study materials tailored specifically for students gearing up to take the IELTS and TOEFL exams, ensuring a well-rounded and effective preparation.',
-          'Personalized Instruction: Provided individualized one-on-one lessons to students, fostering an environment conducive to targeted learning and addressing specific areas of improvement.'
-        ]
-      }
-  
+          
     ],
     certifications: [
       {
