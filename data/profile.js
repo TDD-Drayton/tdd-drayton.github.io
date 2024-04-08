@@ -56,17 +56,29 @@ const profileData = {
     ],
     projects: [
       {
-        title: "Project Euler",
-        duration: "Current",
-        link: "https://github.com/TDD-Drayton/project-euler",
-        desc: `Challenging mathematical/computer programming problems.`
+        title: "Security Appliance Access",
+        duration: "Firewall",
+        link: "https://www.pfsense.org/",
+        desc: `Deployment and configuration of a pfSense firewall to fortify network security.`
       },
       {
-        title: "Understanding Maths",
-        duration: "Current",
-        link: "https://github.com/TDD-Drayton/Working-Math-Quiz-1",
-        desc: `Simple example and use cases using C and Python covering a variety of topics.`
-      }
+        title: "Analysis with Wireshark",
+        duration: "Network Analysis",
+        link: "https://www.wireshark.org/",
+        desc: `Captured and analyzed network packets to identify anomalies, diagnose root causes of network disruptions, and optimize traffic flow.`
+      },
+      {
+        title: "Bluetooth vulnerability discovery",
+        duration: "Bluetooth",
+        link: "https://www.bluetooth.com/",
+        desc: `Conducting penetration tests and implementing security controls for robust system defense:Bluelog, Blueranger, and Bluesnarfer.`
+      },
+      {
+        title: "Security Defensive Strategies",
+        duration: "Modeling",
+        link: "https://attack.mitre.org/",
+        desc: `Implemented defensive strategies based on the MITRE ATT&CK framework to enhance cybersecurity posture.`
+      },   
     ],
     experiences: [
       {
