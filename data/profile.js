@@ -14,7 +14,7 @@ const profileData = {
     },
     links: [
       { title: "Github", src: "https://github.com/TDD-Drayton" },
-      { title: "LinkedIn", src: "https://www.linkedin.com/in/toi-drayton-995a3a199/" }
+      { title: "LinkedIn", src: "www.linkedin.com/in/toi-d-995a3a199" }
   
     ],
     education: [
