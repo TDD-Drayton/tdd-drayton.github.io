@@ -57,7 +57,7 @@ const profileData = {
     projects: [
       {
         title: "C/C++",
-        duration: "Layer2/Layer3 Networking",
+        duration: "Debugging",
         link: "https://github.com/TDD-Drayton/",
         desc: `Programming, data structures, debugging skills.`
       },
