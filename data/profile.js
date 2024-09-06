@@ -56,28 +56,28 @@ const profileData = {
     ],
     projects: [
       {
-        title: "Security Appliance Access",
-        duration: "Firewall",
-        link: "https://www.pfsense.org/",
-        desc: `Deployment and configuration of a pfSense firewall to fortify network security.`
+        title: "C/C++",
+        duration: "Layer2/Layer3 Networking",
+        link: "https://github.com/TDD-Drayton/",
+        desc: `Programming, data structures, debugging skills.`
       },
       {
-        title: "Analysis with Wireshark",
-        duration: "Network Analysis",
-        link: "https://www.wireshark.org/",
-        desc: `Captured and analyzed network packets to identify anomalies, diagnose root causes of network disruptions, and optimize traffic flow.`
+        title: "Python",
+        duration: "Testing",
+        link: "https://github.com/TDD-Drayton/",
+        desc: `Robot framework for unit/integration test automation.`
       },
       {
-        title: "Bluetooth vulnerability discovery",
-        duration: "Bluetooth",
-        link: "https://www.bluetooth.com/",
-        desc: `Conducting penetration tests and implementing security controls for robust system defense:Bluelog, Blueranger, and Bluesnarfer.`
+        title: "Layer 2 technologies",
+        duration: "Standards",
+        link: "https://github.com/TDD-Drayton",
+        desc: `802.1Q VLAN bridging, VPLS, EVPN, VXLAN, MPLS, MC-LAG, OAM, MACsec.`
       },
       {
         title: "Security Defensive Strategies",
         duration: "Modeling",
-        link: "https://attack.mitre.org/",
-        desc: `Implemented defensive strategies based on the MITRE ATT&CK framework to enhance cybersecurity posture.`
+        link: "https://github.com/TDD-Drayton",
+        desc: `LLDP/LACP/STP/LFM/CFM/VRRP/ERP/MVRP/TCP/IPv4/IPv6/UDP/OSPF/BGP`
       },   
     ],
     experiences: [
