@@ -74,7 +74,7 @@ const profileData = {
         desc: `802.1Q VLAN bridging, VPLS, EVPN, VXLAN, MPLS, MC-LAG, OAM, MACsec.`
       },
       {
-        title: "Security Defensive Strategies",
+        title: "Protocols",
         duration: "Modeling",
         link: "https://github.com/TDD-Drayton",
         desc: `LLDP/LACP/STP/LFM/CFM/VRRP/ERP/MVRP/TCP/IPv4/IPv6/UDP/OSPF/BGP`
@@ -82,10 +82,22 @@ const profileData = {
     ],
     experiences: [
       {
+        organization: "Freelance",
+        title: `C/C++, Python Test Automation, Layer 2`,
+        date: "Since July 2024",
+        details: [
+          'USA-Remote - Remote',
+          'Network Infrastructure Implementation: Conducted analysis, design, implementation, unit testing and maintenance of software modules',
+          'Design, document and execute unit test cases and integration test cases of new features and automate unit testing.',
+          'Collaborations with teams across geographical locations. Work collaboratively with cross functional teams and architects',
+        ]
+      },
+      {
         organization: "Citizens Property Insurance",
         title: `Software Test Engineer`,
         date: "January 2023 - November 2023",
         details: [
+          'Florida, USA - Hybrid',
           'Systems Testing: Conducted comprehensive testing of front-end, back-end, and database updates to ensure seamless system functionality.',
           'Collaboration and Implementation: Successfully collaborated with vendors to implement systems, ensuring efficient and error-free integration.',
           'Testing Proficiency: Proficient in manual testing, integration testing, functional testing, and regression testing to maintain and enhance product quality.',
@@ -97,6 +109,7 @@ const profileData = {
         title: `IT Engineer | System Admin`,
         date: "Nov 2017 - Sep 2022",
         details: [
+          'Florida, USA - On Site',
           'Network Infrastructure Implementation: Conducted in-depth research and collaborated with engineering teams to implement Cisco and Juniper Network devices, overseeing configuration, monitoring, and maintenance of routers and switches.',
           'Network Administration Expertise: Proficiently managed DHCP, DNS, IPv4/6 addressing, TCP/IP, MPLS/VPLS, BGP, EIGRP, SNMP, and effectively troubleshooted network connections for laptops and desktops using utilities such as ping, traceroute, mtr, SSH, and telnet.',
           'Data Analysis and Presentation: Utilized Python for data analysis and presentation, leveraging tools like Jupyter Notebook and Tableau to review metrics related to customer support, uptime, and networking data.',
