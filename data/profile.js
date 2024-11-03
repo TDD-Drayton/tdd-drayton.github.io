@@ -20,21 +20,21 @@ const profileData = {
     education: [
       {
         alma: "Harvard Extension School",
-        duration: "Enrolled",
+        duration: "EN",
         std: "Bachelor of Liberal Arts",
-        score: "3.0"
+        score: "BA"
       },
       {
         alma: "Eastern Florida State College",
-        duration: "3 Semesters",
+        duration: "EN",
         std: "Associate of Science",
-        score: "3.0"
+        score: "AS"
       },
       {
         alma: "Duncan U. Fletcher High School",
         duration: "Graduated",
         std: "General Education",
-        score: "3.7"
+        score: "HSD"
       }
     ],
     skills: [
