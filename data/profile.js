@@ -140,8 +140,8 @@ const profileData = {
         date: " "
       },
       {
-        desc:'Upcoming exam(s): CySA+, and CISSP. I am always learning something new.',
-        date:"2024"
+        desc:'Upcoming exam(s): ',
+        date:"2025"
       }
     ],
     events: []
