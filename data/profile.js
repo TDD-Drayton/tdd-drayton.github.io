@@ -4,8 +4,8 @@ const profileData = {
     sub_title: "DevOps - CyberSecurity - Network - Engineer",
     logoURL: "assets/images/dp.jpg",
     about: {
-      intro: `I am an innovative network engineer with primary interests in <strong>DevOps</strong> and <strong>Cybersecurity</strong>.
-      Experienced in Agile implementation of sophisticated automation of networks and software QA testing`,
+      intro: `I am an innovative network engineer with primary interests in <strong>DevOps</strong>, <strong>Networking Protocols</strong>, and <strong>Cybersecurity</strong>.
+      Experienced in Agile implementation of sophisticated automation of networks and software QA testing related to network automation`,
       contact: {
         email: "-",
         phone: "-",
@@ -84,7 +84,7 @@ const profileData = {
       {
         organization: "Freelance",
         title: `C/C++, Python Test Automation, Layer 2, Layer 3, Layer 4,`,
-        date: "Since July 2024",
+        date: "Since November 2023",
         details: [
           'Global - Remote',
           'Developing and optimizing network protocols and applications using C, with expertise in Layer 3 and Layer 4 (TCP/IP, UDP) for efficient remote communication and troubleshooting.',
