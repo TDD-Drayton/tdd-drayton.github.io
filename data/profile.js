@@ -89,7 +89,7 @@ const profileData = {
           'Global - Remote',
           'Developing and optimizing network protocols and applications using C, with expertise in Layer 3 and Layer 4 (TCP/IP, UDP) for efficient remote communication and troubleshooting.',
           'Implementing automated unit and integration testing pipelines using CMocka and CI/CD tools (Jenkins, GitHub Actions), ensuring code quality and reliability in a remote environment.',
-          'Collaboration with cross-functional teams using Git for version control, and documented codebase with Doxygen, maintaining clear and accessible code in distributed work settings.',
+          'Collaboration with cross-functional teams using Git for version control, and documented codebase, maintaining clear and accessible code in distributed work settings.',
           'Network Infrastructure Implementation: Conducted analysis, design, implementation, unit testing and maintenance of software modules',
           'Design, document and execute unit test cases and integration test cases of new features and automate unit testing.',
           'Collaborations with teams across geographical locations. Work collaboratively with cross functional teams and architects',
