@@ -1,25 +1,27 @@
 const profileData = {
-  title: "CV",
+  title: "Resume",
 
   name: "Toi Drayton",
 
-  sub_title: "Network Automation | DevOps | Test Engineering",
+  sub_title:
+    "Network Automation Engineer | Python | C/C++ | Juniper | Cisco | CI/CD",
 
   logoURL: "assets/images/dp.jpg",
 
   about: {
     intro: `
-      Network engineer focused on <strong>network automation</strong>,
-      <strong>network protocols</strong>, <strong>DevOps</strong>,
-      and <strong>software test automation</strong>.
-      Experienced with Python, C/C++, Cisco and Juniper networking,
-      CI/CD, automated testing, and Layer 2–4 technologies.
+      Network automation engineer with experience spanning
+      <strong>enterprise networking</strong>,
+      <strong>software test automation</strong>, and
+      <strong>network software validation</strong>.
+      Experienced with Python, C/C++, Cisco and Juniper platforms,
+      network protocols, automated testing, and CI/CD.
     `,
 
     contact: {
       email: "-",
       phone: "-",
-      address: "Remote - Global"
+      address: "Remote"
     }
   },
 
@@ -62,6 +64,19 @@ const profileData = {
     },
 
     {
+      category: "Network Automation",
+      topics: [
+        "Junos PyEZ",
+        "NETCONF",
+        "XML",
+        "REST APIs",
+        "Ansible",
+        "YAML",
+        "JSON"
+      ]
+    },
+
+    {
       category: "Networking",
       topics: [
         "TCP/IP",
@@ -69,11 +84,9 @@ const profileData = {
         "BGP",
         "OSPF",
         "EIGRP",
-        "MPLS",
-        "VPLS",
-        "EVPN",
-        "VXLAN",
-        "802.1Q VLAN",
+        "MPLS/VPLS",
+        "EVPN/VXLAN",
+        "802.1Q VLANs",
         "LLDP",
         "LACP",
         "STP",
@@ -87,20 +100,7 @@ const profileData = {
     },
 
     {
-      category: "Network Automation",
-      topics: [
-        "Junos Automation",
-        "Python/PyEZ",
-        "XML/NETCONF",
-        "REST APIs",
-        "Ansible",
-        "YAML",
-        "JSON"
-      ]
-    },
-
-    {
-      category: "Testing & DevOps",
+      category: "Testing & CI/CD",
       topics: [
         "CMocka",
         "Robot Framework",
@@ -108,14 +108,13 @@ const profileData = {
         "Postman",
         "Jenkins",
         "GitHub Actions",
-        "CI/CD",
         "Docker",
         "Git"
       ]
     },
 
     {
-      category: "Engineering Tools",
+      category: "Data & Engineering Tools",
       topics: [
         "Jupyter Notebook",
         "Tableau",
@@ -128,30 +127,31 @@ const profileData = {
     {
       title: "C/C++ Network Software",
       duration: "Development & Debugging",
-      link: "https://github.com/TDD-Drayton/",
+      link: "https://github.com/TDD-Drayton",
       desc: `
-        Network software development, data structures,
-        protocol implementation, testing, and debugging.
+        Network software development involving data structures,
+        protocol behavior, automated testing, debugging,
+        and software validation.
       `
     },
 
     {
-      title: "Python Test Automation",
-      duration: "Automation",
-      link: "https://github.com/TDD-Drayton/",
+      title: "Python Network Automation",
+      duration: "Automation & Testing",
+      link: "https://github.com/TDD-Drayton",
       desc: `
-        Automated unit and integration testing using Python
-        and Robot Framework.
+        Python-based automation and testing for network systems,
+        APIs, configuration workflows, and repeatable validation.
       `
     },
 
     {
       title: "Layer 2 Technologies",
-      duration: "Networking",
+      duration: "Network Engineering",
       link: "https://github.com/TDD-Drayton",
       desc: `
-        802.1Q VLAN bridging, VPLS, EVPN, VXLAN,
-        MPLS, MC-LAG, OAM, and MACsec.
+        Engineering and validation involving 802.1Q VLANs,
+        VPLS, EVPN/VXLAN, MPLS, MC-LAG, OAM, and MACsec.
       `
     },
 
@@ -160,52 +160,37 @@ const profileData = {
       duration: "Layer 2–4",
       link: "https://github.com/TDD-Drayton",
       desc: `
-        LLDP, LACP, STP, LFM, CFM, VRRP, ERP,
-        MVRP, TCP, UDP, IPv4/IPv6, OSPF, and BGP.
+        Protocol implementation, validation, and troubleshooting
+        across LLDP, LACP, STP, VRRP, TCP, UDP, IPv4/IPv6,
+        OSPF, BGP, and related technologies.
       `
     }
   ],
 
   experiences: [
     {
-      organization: "Freelance",
+      organization: "Current Engineering Focus",
 
-      title: "Network Software & Test Automation Engineer",
+      title: "Network Software & Test Automation",
 
-      /*
-       * Existing main.js displays this field beside the job title.
-       * Using work arrangement instead of employment dates.
-       */
-      date: "Remote - Global",
+      date: "",
 
       details: [
-        `Develop and test C/C++ network software involving
-        Layer 3 and Layer 4 technologies, including TCP/IP
-        and UDP, with emphasis on protocol behavior,
-        reliability, and troubleshooting.`,
+        `Develop and debug C/C++ network software involving
+        Layer 2–4 technologies, with emphasis on protocol behavior,
+        reliability, and software validation.`,
 
-        `Design and implement automated unit and integration
-        tests using CMocka to validate network software
-        functionality and regression behavior.`,
+        `Design automated unit and integration tests using CMocka
+        to validate network functionality and regression behavior.`,
 
-        `Integrate automated testing into CI/CD pipelines
-        using Jenkins and GitHub Actions to support
-        repeatable software validation.`,
+        `Integrate automated testing into Jenkins and GitHub Actions
+        pipelines to support repeatable CI/CD validation.`,
 
-        `Analyze, design, implement, test, and maintain
-        software modules supporting network infrastructure
-        and protocol functionality.`,
+        `Troubleshoot software and protocol behavior across TCP/IP,
+        UDP, IPv4/IPv6, and related networking technologies.`,
 
-        `Design, document, and execute unit and integration
-        test cases for new features and automate
-        repeatable test scenarios.`,
-
-        `Collaborate with engineers and architects across
-        geographically distributed teams using Git-based
-        development workflows.`,
-
-        `Troubleshoot and debug software and network behavior
-        across Layer 2, Layer 3, and Layer 4 technologies.`
+        `Collaborate with distributed engineering teams using
+        Git-based development, code review, and testing workflows.`
       ]
     },
 
@@ -214,28 +199,26 @@ const profileData = {
 
       title: "Software Test Engineer",
 
-      date: "Florida, USA - Hybrid",
+      date: "",
 
       details: [
-        `Tested front-end, back-end, and database changes
-        to validate functionality across integrated systems.`,
+        `Tested front-end, back-end, API, and database changes
+        across integrated enterprise applications.`,
 
-        `Performed manual, functional, integration,
-        and regression testing to identify defects
-        and maintain product quality.`,
+        `Developed and executed automated test workflows using
+        Java, JavaScript, Selenium/WebDriver, Jenkins, and Postman.`,
 
-        `Developed and executed automated test workflows
-        using Java, JavaScript, Selenium/WebDriver,
-        Jenkins, and Postman.`,
+        `Performed functional, integration, regression, and
+        end-to-end testing to identify defects before release.`,
 
-        `Validated APIs and application integrations
-        as part of end-to-end system testing.`,
+        `Validated APIs and application integrations as part of
+        end-to-end system testing.`,
 
-        `Collaborated with vendors and internal stakeholders
-        during system implementation and integration.`,
+        `Documented test execution, defects, and validation results
+        to support engineering and release decisions.`,
 
-        `Documented test execution, defects, and validation
-        results to support engineering and release decisions.`
+        `Collaborated with internal engineering teams and external
+        vendors during system implementation and integration.`
       ]
     },
 
@@ -244,37 +227,33 @@ const profileData = {
 
       title: "IT Engineer | Systems Administrator",
 
-      date: "Florida, USA - On Site",
+      date: "",
 
       details: [
         `Implemented, configured, monitored, and maintained
-        Cisco and Juniper network infrastructure in
-        collaboration with engineering teams.`,
+        Cisco and Juniper network infrastructure in collaboration
+        with engineering teams.`,
 
         `Administered and troubleshot enterprise networking
-        technologies including TCP/IP, IPv4/IPv6,
-        DHCP, DNS, BGP, EIGRP, MPLS/VPLS, and SNMP.`,
+        technologies including TCP/IP, IPv4/IPv6, DHCP, DNS,
+        BGP, EIGRP, MPLS/VPLS, and SNMP.`,
 
-        `Diagnosed network connectivity and infrastructure
-        issues using ping, traceroute, MTR, SSH,
-        and Telnet.`,
+        `Diagnosed network connectivity and infrastructure issues
+        using ping, traceroute, MTR, SSH, and related network
+        troubleshooting tools.`,
 
-        `Used Python, Jupyter Notebook, and Tableau
-        to analyze customer-support, uptime,
-        and networking metrics.`,
+        `Used Python, Jupyter Notebook, and Tableau to analyze
+        operational, uptime, customer-support, and networking
+        metrics.`,
 
-        `Supported network-connected infrastructure and
-        endpoints including laptops, desktops,
-        thin clients, printers, scanners, tablets,
-        and related operational technology.`,
+        `Supported network-connected infrastructure and endpoints
+        across enterprise operational environments.`,
 
-        `Managed technology procurement across multiple
-        accounts, overseeing assets valued at
-        more than $500,000.`,
+        `Managed technology procurement across multiple accounts,
+        overseeing assets valued at more than $500,000.`,
 
         `Collaborated with technology vendors on infrastructure
-        and asset implementation to support reliable
-        deployment and ongoing operations.`
+        implementation, deployment, and ongoing operations.`
       ]
     }
   ],
@@ -283,12 +262,14 @@ const profileData = {
     {
       desc: `
         <strong>JNCIA-DevOps</strong>
-        by <strong>Juniper Networks</strong>.
-        (<a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.credly.com/users/toi-drayton/badges"
-        >Credly</a>)
+        · <strong>Juniper Networks</strong>
+        · (
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.credly.com/users/toi-drayton/badges"
+          >Verify</a>
+        )
       `,
       date: ""
     },
@@ -296,12 +277,14 @@ const profileData = {
     {
       desc: `
         <strong>Applied Data Science with Python - Level 2</strong>
-        by <strong>IBM</strong>.
-        (<a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.credly.com/users/toi-drayton/badges"
-        >Credly</a>)
+        · <strong>IBM</strong>
+        · (
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.credly.com/users/toi-drayton/badges"
+          >Verify</a>
+        )
       `,
       date: ""
     },
@@ -309,12 +292,14 @@ const profileData = {
     {
       desc: `
         <strong>Docker Essentials: A Developer Introduction</strong>
-        by <strong>IBM</strong>.
-        (<a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.credly.com/users/toi-drayton/badges"
-        >Credly</a>)
+        · <strong>IBM</strong>
+        · (
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.credly.com/users/toi-drayton/badges"
+          >Verify</a>
+        )
       `,
       date: ""
     }
